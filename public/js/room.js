@@ -94,4 +94,4 @@ const toggleVideo = (element) => {
 const leaveMeeting = () => {
   window.location.href = `${window.origin}/`;
 };
-const copyToClipBoard = () => navigator.clipboard.writeText(ROOM_ID);
+const copyToClipBoard = () => navigator.clipboard.writeText("https://webrtc-shs.herokuapp.com/"+ROOM_ID);
